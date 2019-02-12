@@ -1,0 +1,10 @@
+(executable (name echo) (modules echo))
+(executable (name find) (modules find) (libraries findlib))
+(executable
+  (name find_but_git)
+  (modules find_but_git)
+  (libraries findlib unix))
+(executable
+  (name getcwd)
+  (modules getcwd)
+  (libraries misc))

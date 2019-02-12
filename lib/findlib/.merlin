@@ -1,0 +1,8 @@
+EXCLUDE_QUERY_DIR
+B /home/larlon/github.com/lonnelars/unix_ocaml/_opam/lib/ocaml
+B ../_build/default/findlib/.findlib.objs
+B ../_build/default/misc/.misc.objs
+S /home/larlon/github.com/lonnelars/unix_ocaml/_opam/lib/ocaml
+S .
+S ../misc
+FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs
